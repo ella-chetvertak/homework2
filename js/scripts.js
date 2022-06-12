@@ -10,7 +10,7 @@ const str_two = 'brown fox jumps';
 console.log(`${str.indexOf(str_two)}\n${str.toUpperCase()}`);
 let a = 1, b = 2, c = 3, d = 3;
 console.log(a<c || b>c || c<d);
-console.log(a<c && b<c && c==d)
+console.log(a<c && b<c && c==d);
 console.log(`using == you get ${0==false} when you check if 0=false, but same checkout using === gives you ${0===false}`);
 let empty_text;
 let full_text = 'lorem';
